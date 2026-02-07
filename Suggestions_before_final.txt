@@ -1,0 +1,16 @@
+Current progress: The model is working fine as universal multi logs format with proper classification. The model is calculating results
+as per the features weightages(including recent UEBA ones) in SHAP(%) contribution.
+
+Some suggestions before final deployment:-
+
+1.  In the recent 2 years, the cyber attackers or suspicious users, smartly used masked ipv4 address as shown in real data, in the form of ipv6. As the range of the ipv6(2^128)very high, so it's difficult to detect, in normal static datasets. The real model performance can be fluctuated by even 20-35% in real dynamic global level logs classification, if unmasking of ipv6 address is not done optimally. Basic unmasking technique is tunneling concept. We can detect unmasking by integrating UEBA with tunneling concepts with further advancements as required. (in process)
+
+
+2. The odd hours should be calculated(11:00pm - 5:30am) as per the user's log entry, but not with the standardized UTC time zone, unless it
+is highly confidential that the user is suspicious/bot/automated/risky vpn based.(done)
+
+
+3.  We can add complete whitelisting domain lists as an additional feature in the feature engineering before model training, giving high weightage to it, ensuring that the whitelisting domain alone may not be the highest confidentiality condition of legit users. (done)
+
+
+4.  For final touch, we can integrate our supervised learning(statically dataset related) models with real time dynamic reinforcement ML models like Hidden Markov' decision marking process, integrated with MOE(mixture of experts).  The model performance will be dynamically improved as per the future usage of real time user's logs in future automatically, without need to train again later for the comprehensive user's log pattern coverage without any crash, as if suppose supervised(static) and reinforcement learning(dynamic) models in even rare coverage crashes in production, the unsupervised model will take care, utilizing the previous threshold of integrated model of both(static/dynamic/both), so chances of app crash will be minimum. (futuristic suggestions)
